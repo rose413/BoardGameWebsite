@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Board Game Website</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+  <!--NavBar-->
+  <header>
+    <a href="#" class="logo">
+      <img src="imgs/sipnplay.png" alt="sipnplay">
+    </a>
+
+    <ul class="navbar">
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#about">ABOUT US</a></li>
+      <li><a href="#menu">MENU</a></li>
+      <li><a href="#eventcalendar">EVENT CALENDAR</a></li>
+    </ul>
+    <div class="navbar-icon">
+      <i class='bx bx-cart'></i>
+      <i class='bx bx-search-alt' ></i>
+    </div>
+  </header>
+
+  <!--Home Page-->
+  <section class="home-page" id="home-page">
+    <div class="home-page-image">
+      <img src="imgs/pandaboba.jpeg" alt="panda drinking boba">
+    </div>
+    <div class="home-page-title">
+      <h1>Play, Sip, and <br> Snack with Friends</h1>
+      <p>Come in with your friends and family to play any board game from our library of 300+ games! <br>We hope when you visit, you also enjoy our coffee, espresso, boba, sandwiches, and snacks!</p>
+    </div>
+  </section>
+
+  <!--Menu-->
+  <section class="menu" id="menu">
+    <div class="menu-title">
+      <h2>Menu</h2>
+    </div>
+
+    <div class="menu-container">
+      <div class="menu-item">
+        <h3>Coffee</h3>
+        <div class="content">
+          <span>$3.50</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <h3>Boba</h3>
+        <div class="content">
+          <span>$3.50</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Calendar-->
+  <section class="calendar" id="calendar">
+    <div class="calendar-title">
+      <h2>Calendar</h2>
+    </div>
+
+    <div className="calendar-container">
+      <table>
+          <thead>
+              <tr>
+                  <th>Sunday</th>
+                  <th>Monday</th>
+                  <th>Tuesday</th>
+                  <th>Wednesday</th>
+                  <th>Thurday</th>
+                  <th>Friday</th>
+                  <th>Saturday</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td className="time">8 am</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <Event event='Yolk 🍳' color ='green'/>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td className="time">9 am</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <Event event='Subway 🚊' color = 'pink' />
+                  <td></td>
+                  <td></td>
+                  <Event event='The Bean 🫘' color ='blue'/>
+              </tr>
+              <tr>
+                  <td className="time">10 am</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td className="time">11 am</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td className="time">12 pm</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td className="time">1 pm</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td className="time">2 pm</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td className="time">3 pm</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td className="time">4 pm</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td className="time">5 pm</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
